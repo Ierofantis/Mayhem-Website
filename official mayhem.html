@@ -1,0 +1,291 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+<style type="text/css">
+body {
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: #000;
+	background-image: url();
+}
+#container {
+	height: 600px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#side1 {
+	float: left;
+	height: 600px;
+	width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #000;
+	opacity::0.6;
+}
+
+#content {
+	float: left;
+	height: 600px;
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(ma/ma/Untitled-2%20copy.jpg);
+	opacity: 0.6;
+}
+
+
+#header {
+	height: 200px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #000;
+	background-image: url(ma/mayhem.jpg);
+	opacity:0.6	
+}
+#o{opacity:0.6}
+#t{opacity:0.6}
+#y{opacity:0.6}
+
+#ss{
+	float: right;
+	height: 600px;
+	width: 800px;
+	position: absolute;
+	clear: both;
+	margin-right: 500px;
+	margin-left: auto;
+	left: 600px;
+	background-image: url(ma/m.jpg);
+	opacity: 0.6;
+	background-repeat: repeat;
+	top: 210px;
+	overflow: auto;
+	font-size: 24px;
+	color: #CCC;
+}
+#b{
+	float: right;
+	height: 600px;
+	width: 800px;
+	position: absolute;
+	clear: both;
+	margin-right: 500px;
+	margin-left: auto;
+	left: 600px;
+	background-image: url(pictures/b.jpg);
+	opacity: 0.6;
+	background-repeat: no-repeat;
+	top: 210px;
+	overflow: auto;
+	font-size: 24px;
+	color: #CCC;
+}
+#l{
+	float: right;
+	height: 600px;
+	width: 800px;
+	position: absolute;
+	clear: both;
+	margin-right: 500px;
+	margin-left: auto;
+	left: 600px;
+	background-image: url(pictures/l.jpg);
+	opacity: 0.6;
+	background-repeat: no-repeat;
+	top: 210px;
+	overflow: auto;
+	font-size: 24px;
+	color: #CCC;
+}
+#m{
+	float: right;
+	height: 600px;
+	width: 800px;
+	position: absolute;
+	clear: both;
+	margin-right: 500px;
+	margin-left: auto;
+	left: 600px;
+	background-image: url(pictures/m.jpg);
+	opacity: 0.6;
+	background-repeat: repeat;
+	top: 210px;
+	overflow: auto;
+}
+
+
+</style>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2'>
+</script>
+<script>
+$(document).ready(function(){
+	//your functions
+	//- - - - - - - - - - - -
+	$("#ss").mouseover(function(){
+		$(this).fadeTo('slow',0.5);
+	});
+	$("#ss").mouseout(function(){
+		$(this).fadeTo('slow',1);
+	});
+});
+
+$(document).ready(function(){
+	//your functions
+	//- - - - - - - - - - - -
+	$("#header").mouseover(function(){
+		$(this).fadeTo('slow',0.5);
+	});
+	$("#header").mouseout(function(){
+		$(this).fadeTo('slow',1);
+	});
+	
+	$(document).ready(function(){
+	//your functions
+	//- - - - - - - - - - - -
+	$("#b").mouseover(function(){
+		$(this).fadeTo('slow',0.5);
+	});
+	$("#b").mouseout(function(){
+		$(this).fadeTo('slow',1);
+	});
+	
+		$(document).ready(function(){
+	//your functions
+	//- - - - - - - - - - - -
+	$("#l").mouseover(function(){
+		$(this).fadeTo('slow',0.5);
+	});
+	$("#l").mouseout(function(){
+		$(this).fadeTo('slow',1);
+	});
+
+
+$(document).ready(function(){
+$('#o').mouseover(function(){
+    $(this).css({
+        "-webkit-transform": "rotate(45deg)",
+        "-moz-transform": "rotate(45deg)",
+        "transform": "rotate(45deg)" /* For modern browsers(CSS3)  */
+    });
+	$('#o').mouseout(function(){
+    $(this).css({
+        "-webkit-transform": "rotate(0deg)",
+        "-moz-transform": "rotate(0deg)",
+        "transform": "rotate(0deg)" /* For modern browsers(CSS3)  */
+    });
+	
+});$('#t').mouseover(function(){
+    $(this).css({
+        "-webkit-transform": "rotate(45deg)",
+        "-moz-transform": "rotate(45deg)",
+        "transform": "rotate(45deg)" /* For modern browsers(CSS3)  */
+    });
+	$('#t').mouseout(function(){
+    $(this).css({
+        "-webkit-transform": "rotate(0deg)",
+        "-moz-transform": "rotate(0deg)",
+        "transform": "rotate(0deg)" /* For modern browsers(CSS3)  */
+    });
+	});$('#y').mouseover(function(){
+    $(this).css({
+        "-webkit-transform": "rotate(45deg)",
+        "-moz-transform": "rotate(45deg)",
+        "transform": "rotate(45deg)" /* For modern browsers(CSS3)  */
+    });
+	$('#y').mouseout(function(){
+    $(this).css({
+        "-webkit-transform": "rotate(0deg)",
+        "-moz-transform": "rotate(0deg)",
+        "transform": "rotate(0deg)" /* For modern browsers(CSS3)  */
+    });
+	
+})
+    $("#o").click(function(){
+        $("#Interviews").animate({
+            backgroundPositionX: "-=100px", 
+            backgroundPositionY: "-=200px"
+        });
+    });
+    $("#o").click(function(){
+        $("#Interviews").animate({
+            backgroundPositionX: "0px", 
+            backgroundPositionY: "0px"
+        });
+    });
+});
+});
+});
+});
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+});
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+	})
+})
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+
+
+
+</script>
+</head>
+</head>
+</head>
+
+<body onload="MM_showHideLayers('ss','','hide','b','','hide','l','','hide','m','','hide');MM_showHideLayers('ss','','hide','b','','hide','l','','hide','m','','hide');MM_showHideLayers('ss','','hide','b','','hide','l','','hide','m','','hide')">
+<div id="container">
+
+  <div id="header" onclick="MM_showHideLayers('ss','','hide','b','','hide','l','','hide','m','','hide')"><img src="pictures/mayhem.jpg" width="1000" height="200" /></div>
+  
+  <div id="side1"><img src="pictures/Untitled-1.png" width="200" height="200" id="o" onclick="MM_showHideLayers('ss','','hide','b','','show','l','','hide','m','','hide');MM_showHideLayers('ss','','show','b','','hide','l','','hide','m','','hide')" /><img src="pictures/Untitled-3.png" width="200" height="200" id="y" onclick="MM_showHideLayers('ss','','hide','b','','show','l','','hide','m','','hide')"/><img src="pictures/Untitled-2.png" width="200" height="200" id="t" onclick="MM_showHideLayers('ss','','hide','b','','hide','l','','show','m','','hide')" /> </div>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</div>
+  <div id="ss">
+    <img src="pictures/m.jpg"/>
+    <img src="pictures/b.jpg"/>
+    <img src="pictures/l.jpg"/>
+  
+  
+    <div id="pics">
+    
+
+</div>
+
+</div>
+ 
+  </div>
+  <div id="m">
+ </div>
+  <div id="b">
+ </div>
+  <div id="l">
+ </div>
+  </div>
+
+</body>
+</html>
